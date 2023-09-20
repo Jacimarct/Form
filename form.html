@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <div>
+        <h1> Formulário de cadastro</h1>
+    <form action="">
+        <label for="username" >
+            Escreva seu nome:
+        </label>
+        <input type="text" name="username" id="username">
+        <label for="time">
+            Insira o horário disponivel
+        </label>        
+        <input type="time" name="dataDisponivel" id="time">
+
+        <br> <label for="Email" >
+            Escreva seu Email:
+        </label>
+        <input type="text" name="useremail" id="useremail">
+        <br><label for="CEP" >
+            Escreva seu CEP.:
+        </label>
+        <input type="text" id="cep" name="cep" pattern="\d{5}-\d{3}" placeholder="12345-678" required>
+<!--        <input type="number" name="usercep" id="usercep">-->
+    </form>
+    </div>    
+</body>
+</html>

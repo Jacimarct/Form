@@ -1,0 +1,31 @@
+.titulo_da_aula {
+    color: blue;
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  .caixa {
+    width: 150px; /* Defina a largura desejada em pixels */
+    height: 10px; /* Defina a altura desejada em pixels */
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  
+  #ultima-caixa {
+    background-color: #ffcc00;
+  }
+  a {
+    text-decoration: none; /* Remove sublinhado padrão dos links */
+    color: #0077cc; /* Cor padrão para links */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Sublinhar link ao passar o mouse sobre ele */
+  }
+  p {
+    font-style: italic;
+  }
+      
